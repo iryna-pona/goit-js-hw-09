@@ -89,6 +89,8 @@ function createMarkup(arr) {
 }
 
 new SimpleLightbox(".gallery a", {
+  overlay: true,
+  overlayOpacity:	0.8, 
   captionsData: "alt",
   captionDelay: 250,
 });
